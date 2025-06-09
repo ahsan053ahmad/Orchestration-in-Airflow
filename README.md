@@ -4,13 +4,13 @@ This repository contains the submission for a Data Engineering lab focused on or
 
 ---
 
-### 🧩 Business Problem
+### Business Problem
 
 Modern data engineering requires orchestrating multiple tasks such as extraction, transformation, loading, validation, and cleanup. Manual scheduling of these operations is error-prone and unscalable. This lab demonstrates how to use Apache Airflow to solve that challenge by managing interdependent operations using well-defined DAGs.
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 - Understand the structure and scheduling logic of DAGs in Apache Airflow
 - Implement a sample DAG for loading, transforming, and verifying data
@@ -20,7 +20,7 @@ Modern data engineering requires orchestrating multiple tasks such as extraction
 
 ---
 
-### 🛠️ Solution Approach
+### Solution Approach
 
 1. **DAG Construction**
    - Defined the DAG's configuration with scheduling (`@daily`), retries, start date, etc.
@@ -41,7 +41,7 @@ Modern data engineering requires orchestrating multiple tasks such as extraction
 
 ---
 
-### 💡 Business Value
+### Business Value
 
 This project illustrates how Airflow can be effectively used to:
 
@@ -52,7 +52,7 @@ This project illustrates how Airflow can be effectively used to:
 
 ---
 
-### 🚧 Challenges Encountered
+### Challenges Encountered
 
 - Understanding DAG scheduling quirks (e.g., `start_date` in the past)
 - Managing retries and catching task failures
